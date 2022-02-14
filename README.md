@@ -42,7 +42,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 Describe any challenges encountered while building the app.
 
 1. Implementing the infitnite pagination, makes the whole app unstable. I recommend not implementing it at all. 
-2. When logging in, API would redirect the page to "Page doesn't exist". To go around this bug, try logging in both ways (username or email). This bugg is persistent.
+2. When logging in, API would redirect the page to "Page doesn't exist". To go around this bug, try logging in both ways (username or email). This bugg is persistent. Specially when restarting the app.
+3. There's a bug where tweets sometimes will not show when logging in. I had to wipe emulator data, close android studio, and restart everything. This is a hassle.
 
 ## Open-source libraries used
 
